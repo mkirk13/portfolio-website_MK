@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="48" viewBox="0 0 62 48">
+  <defs>
+    <filter id="Line_4" x="7.5" y="6.5" width="48" height="4" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.878"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_5" x="7.5" y="35.5" width="48" height="4" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.878"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_1" x="9.44" y="8.5" width="44.011" height="29.094" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-opacity="0.816"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-mk_name_logo">
+      <rect width="62" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="mk_name_logo" clip-path="url(#clip-mk_name_logo)">
+    <rect width="62" height="48" fill="rgba(255,255,255,0)"/>
+    <g id="Logo" transform="translate(-6 -5)">
+      <g transform="matrix(1, 0, 0, 1, 6, 5)" filter="url(#Line_4)">
+        <line id="Line_4-2" data-name="Line 4" x2="44" transform="translate(8.5 7.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 6, 5)" filter="url(#Line_5)">
+        <line id="Line_5-2" data-name="Line 5" x2="44" transform="translate(8.5 36.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 6, 5)" filter="url(#Union_1)">
+        <path id="Union_1-2" data-name="Union 1" d="M5065.012,1574.13s1.388-.919.895-1.505c-.423-.5-7.9-11.2-10.027-14.236l-3.839,3.221c.01,5.753.02,11.309.02,11.309l.64,1.083h-4.3l.655-1.083s0-14.736.006-21.058l-3.1,4.018-4.192,5.858-.57.781-.006-.034-.005.027-.559-.786-5.092-6.512-2.437-2.849c0,6.18-.072,19.7-.047,20.259.032.715,1.084,1.379,1.084,1.379h-5.1s1.02-.9,1-1.379.034-22.644,0-23.285-1.036-1.3-1.036-1.3h5.021a4.441,4.441,0,0,0-.927,1.179l8.106,11.577,7.871-11.822c-.091-.355-.957-.933-.957-.933h4.871s-.979.713-.971,1c0,.136.013,5.38.023,10.918,3.13-2.58,12.369-10.194,12.865-10.565.6-.448,0-1.327,0-1.327h4.192l-3.01,1.761-8.282,6.949,10.24,15.181,1.968,2.175Z" transform="translate(-5019.06 -1539.04)" fill="#fff"/>
+      </g>
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(18 34)" fill="#fff">
+        <path d="M.5,0,1,5H0Z" stroke="none"/>
+        <path d="M 0.4999999701976776 0 L 1 5 L -5.960464477539062e-08 5 L 0.4999999701976776 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Polygon_2" data-name="Polygon 2" transform="translate(19 20) rotate(180)" fill="#fff">
+        <path d="M.5,0,1,5H0Z" stroke="none"/>
+        <path d="M 0.4999999701976776 0 L 1 5 L -5.960464477539062e-08 5 L 0.4999999701976776 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Polygon_3" data-name="Polygon 3" transform="translate(37 34)" fill="#fff">
+        <path d="M.5,0,1,5H0Z" stroke="none"/>
+        <path d="M 0.4999999701976776 0 L 1 5 L -5.960464477539062e-08 5 L 0.4999999701976776 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Polygon_4" data-name="Polygon 4" transform="translate(38 20) rotate(180)" fill="#fff">
+        <path d="M.5,0,1,5H0Z" stroke="none"/>
+        <path d="M 0.4999999701976776 0 L 1 5 L -5.960464477539062e-08 5 L 0.4999999701976776 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Path_7" data-name="Path 7" transform="translate(53 38)" fill="#fff">
+        <path d="M-.648-1.981A22.188,22.188,0,0,0,1.3.5a4.4,4.4,0,0,0,1.313.992H.23S.664,1.4.546.6A11.334,11.334,0,0,0-.648-1.981Z" stroke="none"/>
+        <path d="M -0.6484382152557373 -1.981319308280945 C -0.6484382152557373 -1.981319308280945 0.4948718547821045 -0.3016992509365082 1.300781846046448 0.4989007711410522 C 2.106691837310791 1.299500703811646 2.613281726837158 1.490840792655945 2.613281726837158 1.490840792655945 L 0.2304718494415283 1.490840792655945 C 0.2304718494415283 1.490840792655945 0.664301872253418 1.401920795440674 0.5463818311691284 0.601320743560791 C 0.4284619092941284 -0.199279248714447 -0.6484382152557373 -1.981319308280945 -0.6484382152557373 -1.981319308280945 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Path_8" data-name="Path 8" transform="translate(52 16.818)" fill="#fff">
+        <path d="M1.264-1.8a4.589,4.589,0,0,1,1.278-.593H.45a1.065,1.065,0,0,1,0,.714A9.568,9.568,0,0,1-1.062-.049S.516-1.328,1.264-1.8Z" stroke="none"/>
+        <path d="M 0.4497084617614746 -2.393677711486816 L 2.542478561401367 -2.393677711486816 C 2.542478561401367 -2.393677711486816 2.012698650360107 -2.273067712783813 1.264158487319946 -1.800537586212158 C 0.5156285166740417 -1.328007578849792 -1.061521530151367 -0.04943752288818359 -1.061521530151367 -0.04943752288818359 C -1.061521530151367 -0.04943752288818359 0.3134784698486328 -1.283207654953003 0.4497084617614746 -1.680177688598633 C 0.5859385132789612 -2.077147483825684 0.4497084617614746 -2.393677711486816 0.4497084617614746 -2.393677711486816 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+  </g>
+</svg>
