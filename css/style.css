@@ -63,3 +63,13 @@ a:focus {
 a:active { /* selected link */
   color: #95F7AC;
 }
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #1F1F1F;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #D5D5D5; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
