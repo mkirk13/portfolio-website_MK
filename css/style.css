@@ -108,3 +108,8 @@ a:active { /* selected link */
   border-bottom: 2px solid #D5D5D5; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+header {
+  background-color: #1F1F1F;
+  padding: 10px;
+  margin: 10px 15px;
+}
