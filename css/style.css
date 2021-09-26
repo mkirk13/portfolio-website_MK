@@ -16,7 +16,7 @@ visited (light blue): #95EFF7;
 active (lightgreen): #95F7AC;
 */
 
-body {
+* body {
   background-color: #222D53;
   font-family: 'Arsenal', sans-serif;
   font-size: 16px;
@@ -112,4 +112,5 @@ header {
   background-color: #1F1F1F;
   padding: 10px;
   margin: 10px 15px;
+  border-bottom: 3px solid #4a4a4a;
 }
