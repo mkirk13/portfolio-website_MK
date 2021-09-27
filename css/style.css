@@ -15,7 +15,6 @@ hover (light gold): #F7E095;
 visited (light blue): #95EFF7;
 active (lightgreen): #95F7AC;
 */
-
 * body {
   background-color: #222D53;
   font-family: 'Arsenal', sans-serif;
@@ -24,9 +23,11 @@ active (lightgreen): #95F7AC;
   line-height: 1.6;
   color: #D5D5D5;
 }
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -41,103 +42,208 @@ h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
 img {
   width: 100%;
 }
+
 a {
   color: #D5D5D5;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
-a:visited { /* visited link */
+
+a:visited {
+  /* visited link */
   color: #95EFF7;
 }
+
 a:hover,
 a:focus {
   color: #F7E095;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
-a:active { /* selected link */
+
+a:active {
+  /* selected link */
   color: #95F7AC;
 }
+
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #1F1F1F;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #D5D5D5; /* width of the border, type, color */
+  border-bottom: 2px solid #D5D5D5;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover {
-  opacity: 0.75; /* Reduces the opacity of the button to 80% */
+  opacity: 0.75;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
 .button:active {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #95F7AC;
-  color: #000000; /* needed to override the default link color */
+  color: #000000;
+  /* needed to override the default link color */
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #D5D5D5; /* width of the border, type, color */
+  border-bottom: 2px solid #D5D5D5;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #D5D5D5;
+  color: #000000;
   text-transform: uppercase;
-  border: 2px solid #D5D5D5;
+  border: 2px solid #FFFFFF;
+  text-align: center;
 }
+
 .button.contact:hover {
-  opacity: 0.9; /* Reduces the opacity of the button to 80% */
+  opacity: 0.9;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
 .button.contact:active {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #95F7AC;
-  color: #000000; /* needed to override the default link color */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block */
+  background-color: #FFFFFF;
+  color: #000000;
+  /* needed to override the default link color */
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #D5D5D5; /* width of the border, type, color */
+  border-bottom: 2px solid #D5D5D5;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 header {
   background-color: #1F1F1F;
-  padding: 10px;
+  padding: 10px 0;
   text-align: center;
-  margin: 10px 15px;
-  border-bottom: 3px solid #4a4a4a;
+  margin: 10px border-bottom: 3px solid #4a4a4a;
+  box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.95);
+  position: fixed;
+  width: 100%;
 }
+
 /* Layout styling */
 .container {
   padding: 0 15px;
 }
+
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
+
 #hero h1 {
   text-align: center;
 }
+
 .logo {
   max-width: 150px;
 }
-nav > ul {
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
-nav > ul > li {
+
+nav>ul>li {
   display: inline-block;
 }
-nav > ul > li > a {
-  padding: 0 10px;
+
+nav>ul>li>a {
+  padding: 0 15px;
   text-transform: uppercase;
-  font-weight: 600;
-  color: #D5D5D5;
+  font-weight: 700;
+  color: #FFFFFF;
 }
+
+nav>ul>li>a:visited {
+  padding: 0 10px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: ##F7E095;
+}
+
+nav>ul>li>a:hover {
+  padding: 0 10px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #95EFF7;
+}
+
+nav>ul>li>a:visited {
+  padding: 0 10px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #F7E095;
+}
+
+nav>ul>li>a:active {
+  padding: 0 10px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #95F7AC;
+}
+
+#hero {
+  background-color: #1F1F1F;
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%
+}
+main {
+  padding-top: 225px;
+}
+#contact {
+  text-align: center;
+  background-color: #BEBEBE;
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%
+}
+#contact h2 {
+
+  color: #000000;
+}
+#contact p {
+  text-align: center;
+  color: #000000;
+}
+.behancelogo {
+  width: 65px;
+}
+.linkedinlogo {
+  max-width: 65px;
