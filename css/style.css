@@ -247,3 +247,31 @@ main {
 }
 .linkedinlogo {
   max-width: 65px;
+}
+#about  {
+    text-align: center;
+}
+picture {
+  max-width: 250;
+}
+  #mystory  {
+      text-align: center;
+}
+#mystory  p {
+    text-align: left;
+}
+#skills  {
+    text-align: center;
+}
+#rskills  {
+    text-align: center;
+}
+#rskills  ul {
+    text-align: left;
+}
+#tools  {
+    text-align: center;
+}
+#tools  ul {
+    text-align: left;
+}
