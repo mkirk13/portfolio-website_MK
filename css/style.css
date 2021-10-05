@@ -355,7 +355,7 @@ body {
   padding-left: 10px;
 }
 .row::after {
-  content: "mywork";
+  content: "";
   clear: both;
   display: table;
 }
@@ -372,10 +372,6 @@ h2 {
   display: inline-block;
   width: 100%;
 }
-#mywork {
-  text-align: left;
-}
-
 }
 
 
