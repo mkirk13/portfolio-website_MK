@@ -355,7 +355,7 @@ body {
   padding-left: 10px;
 }
 .row::after {
-  content: "mywork";
+  content: "";
   clear: both;
   display: table;
 }
