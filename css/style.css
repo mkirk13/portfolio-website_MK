@@ -241,7 +241,7 @@ nav>ul>li>a:active {
 }
 
 main {
-  padding-top: 200px;
+  padding-top: 230px;
 }
 
 #contact {
@@ -330,62 +330,82 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
-  text-align: unset;
-  padding: 20px 0 13px;
-}
-nav {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
     width: auto;
     float: right;
     margin-top: 20px;
   }
-main {
-    padding-top: 130px;
+
+  main {
+    padding-top: 170px;
   }
-body {
-  font-size: 16px;
-}
-#hero span {
-  display: block;
-}
-.col-md-6 {
-  width: 50%;
-}
-[class*="col-"] {
-  float: left;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-#about-page h3 {
-  margin-top: 0;
-}
-h2 {
-  text-align: center;
-}
-#about {
-  text-align: center;
-}
-#sociallinks {
-  display: inline-block;
-  width: 100%;
-}
 
-}
+  body {
+    font-size: 16px;
+  }
 
+  #hero span {
+    display: block;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  #sociallinks {
+    display: inline-block;
+    width: 100%;
+  }
+}
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 1440px) {}
 
 .imgwrapper,
 .deswrapper {
