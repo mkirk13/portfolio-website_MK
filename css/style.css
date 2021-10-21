@@ -415,3 +415,21 @@ X-large devices (1440px or larger)
 .deswrapper {
   padding: 10px;
 }
+
+@keyframes color-change {
+  0% {fill: #FFF200;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,0px);}
+  to {transform: translate(200px,0px);}
+}
+
+.clouds {
+  animation: 30s cloud-move infinite alternate linear;
+}
