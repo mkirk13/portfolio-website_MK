@@ -82,16 +82,15 @@ a:active {
 
 .button {
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #1F1F1F;
   color: #ffffff;
-  /* needed to override the default link color */
   font-weight: 500;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #D5D5D5;
-  /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover {
@@ -120,6 +119,8 @@ a:active {
   text-transform: uppercase;
   border: 2px solid #FFFFFF;
   text-align: center;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button.contact:hover {
@@ -380,9 +381,6 @@ Medium devices (640px and larger)
   #sociallinks {
     display: inline-block;
     width: 100%;
-  }
-  #skillsandtools {
-text-align: center;
   }
 }
 
