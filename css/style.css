@@ -399,6 +399,7 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 41.66%;
   }
+
   .container {
     max-width: 1200px;
     margin-left: auto;
@@ -417,17 +418,31 @@ X-large devices (1440px or larger)
 }
 
 @keyframes color-change {
-  0% {fill: #FFF200;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #FFF200;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
+
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,0px);}
-  to {transform: translate(200px,0px);}
+  from {
+    transform: translate(0, 0px);
+  }
+
+  to {
+    transform: translate(200px, 0px);
+  }
 }
 
 .clouds {
