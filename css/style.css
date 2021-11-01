@@ -171,11 +171,6 @@ header {
   max-width: 150px;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
@@ -191,6 +186,7 @@ nav {
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .navtoggle li:not(:last-child) {
@@ -350,6 +346,10 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 20px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
 
   nav>ul>li {
