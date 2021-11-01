@@ -11,20 +11,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap:300,400,700" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/e78d0b396f.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="about-page">
   <header>
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
       <img class="logo" src="img/namelogo/mk_name_logo.svg" alt="Your Name">
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#skills">My Skills</a></li>
+          <li><a href="about.html#skills">My Skills</a>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+            <i class="fas fa-bars"></i>
+          </li>
         </ul>
       </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -131,6 +137,8 @@
       <p>© Copyright Mark Kirkland 2021</p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
