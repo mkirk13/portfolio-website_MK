@@ -185,6 +185,7 @@ nav {
   right: 0;
   top: 35px;
   font-size: 20px;
+  padding-right: 0;
 }
 
 nav>ul {
