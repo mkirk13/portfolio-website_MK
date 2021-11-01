@@ -181,7 +181,9 @@ nav>ul {
   padding: 0;
 }
 
-
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 
 nav>ul>li>a {
   padding: 0 15px;
@@ -340,6 +342,14 @@ Medium devices (640px and larger)
 
   nav>ul>li {
     display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   main {
