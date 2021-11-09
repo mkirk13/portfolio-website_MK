@@ -338,6 +338,9 @@ picture {
 #project p {
   text-align: left;
 }
+#my-img {
+  width: 200px;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -411,6 +414,9 @@ Medium devices (640px and larger)
   #sociallinks {
     display: inline-block;
     width: 100%;
+  }
+  #my-img {
+    width: 400px;
   }
 }
 
