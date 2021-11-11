@@ -354,7 +354,6 @@ picture {
   width: 300px;
 }
 
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -433,6 +432,7 @@ Medium devices (640px and larger)
     width: 500px;
   }
 }
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -459,9 +459,7 @@ Large devices (1024px or larger)
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-
-}
+@media only screen and (min-width: 1440px) {}
 
 .imgwrapper,
 .deswrapper {
