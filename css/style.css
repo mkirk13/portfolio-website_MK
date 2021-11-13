@@ -182,7 +182,7 @@ header {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 nav > ul {
@@ -242,7 +242,7 @@ nav > ul > li > a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 35px;
+  top: 20px;
   font-size: 20px;
   padding-right: 0;
 }
