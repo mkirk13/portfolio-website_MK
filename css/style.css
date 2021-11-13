@@ -16,15 +16,18 @@ visited (light blue): #95EFF7;
 active (lightgreen): #95F7AC;
 */
 * body {
-  background-color: #222D53;
+  background-color: #222d53;
   font-family: 'Arsenal', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.6;
-  color: #D5D5D5;
+  color: #d5d5d5;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -58,67 +61,73 @@ img {
 }
 
 a {
-  color: #D5D5D5;
+  color: #d5d5d5;
   font-size: 1.25em;
   text-decoration: none;
+
   /* No underlining */
 }
 
 a:visited {
   /* visited link */
-  color: #95EFF7;
+  color: #95eff7;
 }
 
 a:hover,
 a:focus {
-  color: #F7E095;
+  color: #f7e095;
   text-decoration: underline;
+
   /* Underlining when hovering over a link */
 }
 
 a:active {
   /* selected link */
-  color: #95F7AC;
+  color: #95f7ac;
 }
 
 .button {
   display: inline-block;
-  background-color: #1F1F1F;
-  color: #ffffff;
+  background-color: #1f1f1f;
+  color: #fff;
   font-weight: 500;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #D5D5D5;
+  border-bottom: 2px solid #d5d5d5;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
 
 .button:hover {
   opacity: 0.75;
+
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
 .button:active {
   display: inline-block;
+
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #95F7AC;
-  color: #000000;
+  background-color: #95f7ac;
+  color: #000;
+
   /* needed to override the default link color */
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #D5D5D5;
+  border-bottom: 2px solid #d5d5d5;
+
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #000000;
+  color: #000;
   text-transform: uppercase;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #fff;
   text-align: center;
   transition-duration: 0.2s;
   transition-property: opacity;
@@ -126,26 +135,30 @@ a:active {
 
 .button.contact:hover {
   opacity: 0.9;
+
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
 .button.contact:active {
   display: inline-block;
+
   /* since the <a> tag is inline by default, we need to change this to inline-block */
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #fff;
+  color: #000;
+
   /* needed to override the default link color */
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #D5D5D5;
+  border-bottom: 2px solid #d5d5d5;
+
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
 header {
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   padding: 10px 0 4px;
   border-bottom: 3px solid #4a4a4a;
   box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.95);
@@ -160,6 +173,7 @@ header {
 
 .row {
   margin: 25px 0;
+
   /* 25px top and bottom, 0 left and right */
 }
 
@@ -171,56 +185,57 @@ header {
   max-width: 150px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   padding: 0 10px;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #F7E095;
+  color: #f7e095;
 }
 
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   padding: 0 10px;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #95EFF7;
+  color: #95eff7;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   padding: 0 10px;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #F7E095;
+  color: #f7e095;
 }
 
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   padding: 0 10px;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #95F7AC;
+  color: #95f7ac;
 }
 
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -248,10 +263,10 @@ nav>ul>li>a:active {
 
 #hero {
   text-align: center;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   padding: 10px 0;
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 #mywork {
@@ -268,27 +283,27 @@ main {
 
 #contact {
   text-align: center;
-  background-color: #BEBEBE;
+  background-color: #bebebe;
   padding: 10px 0;
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 #contact h2 {
-  color: #000000;
+  color: #000;
 }
 
 #contact p {
   text-align: center;
-  color: #000000;
+  color: #0000;
 }
 
 #phonenumber {
-  color: #0A7DE0;
+  color: #0a7de0;
 }
 
 #skypeid {
-  color: #0A7DE0;
+  color: #0a7de0;
 }
 
 .behancelogo {
@@ -369,11 +384,11 @@ Medium devices (640px and larger)
     margin-top: 20px;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -468,7 +483,7 @@ X-large devices (1440px or larger)
 
 @keyframes color-change {
   0% {
-    fill: #FFF200;
+    fill: #fff200;
   }
 
   50% {
