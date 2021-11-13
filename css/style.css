@@ -161,7 +161,7 @@ header {
   background-color: #1f1f1f;
   padding: 10px 0 4px;
   border-bottom: 3px solid #4a4a4a;
-  box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.95);
+  box-shadow: 4px 4px 11px 1px rgba(50, 50, 50, 0.95);
   position: fixed;
   width: 100%;
 }
@@ -472,9 +472,8 @@ Large devices (1024px or larger)
 }
 
 /* ==============================
-X-large devices (1440px or larger)
+X-large devices (1440px or larger) code woul be @media only screen and (min-width: 1440px) {}
 ================================= */
-@media only screen and (min-width: 1440px) {}
 
 .imgwrapper,
 .deswrapper {
@@ -501,11 +500,11 @@ X-large devices (1440px or larger)
 
 @keyframes cloud-move {
   from {
-    transform: translate(0, 0px);
+    transform: translate(0, 1px);
   }
 
   to {
-    transform: translate(200px, 0px);
+    transform: translate(200px, 1px);
   }
 }
 
