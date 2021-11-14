@@ -373,6 +373,10 @@ picture {
   width: 300px;
 }
 
+#sociallinks .links {
+  display: inline-block;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -440,11 +444,6 @@ Medium devices (640px and larger)
 
   #about {
     text-align: center;
-  }
-
-  #sociallinks {
-    display: inline-block;
-    width: 100%;
   }
 
   #my-img {
