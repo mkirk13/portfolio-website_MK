@@ -15,6 +15,10 @@ hover (light gold): #F7E095;
 visited (light blue): #95EFF7;
 active (lightgreen): #95F7AC;
 */
+html {
+  scroll-behavior: smooth;
+}
+
 * body {
   background-color: #222d53;
   font-family: 'Arsenal', sans-serif;
